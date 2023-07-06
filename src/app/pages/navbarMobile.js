@@ -24,7 +24,7 @@ const NavbarMobile = ({ children }) => {
             <Link href='/home' onClick={() => setShowMenu(false)}>
               Home
             </Link>
-            <Link href='/' onClick={() => setShowMenu(false)}>
+            <Link href='/pencapaian' onClick={() => setShowMenu(false)}>
               Pencapaian Madani
             </Link>
             <Link href='/volunteer' onClick={() => setShowMenu(false)}>

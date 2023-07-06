@@ -25,34 +25,34 @@ const Faq = () => {
       {
         question: 'How can I download CISTA?',
         answer:
-          'To become a volunteer, you are required to register as a volunteer via the CISTA app.',
+          'CISTA can be downloaded via the App Store, Play Store & Huawei App Gallery.',
       },
       {
         question: "I'm having trouble registering the CISTA application.",
         answer:
-          'To become a volunteer, you are required to register as a volunteer via the CISTA app.',
+          "Make sure you enter a valid phone number & identity card number before pressing the 'Register Account' button.",
       },
       {
         question: "I can't login into the CISTA app.",
         answer:
-          'To become a volunteer, you are required to register as a volunteer via the CISTA app.',
+          "Make sure the phone number and password you enter are correct before you press the 'Sign In' button.",
       },
       {
         question: 'CISTA app registration takes a long time to complete.',
         answer:
-          'To become a volunteer, you are required to register as a volunteer via the CISTA app.',
+          'Make sure you have a stable internet connection.',
       },
       {
         question:
           'Why does CISTA app registration require identity card detail?',
         answer:
-          'To become a volunteer, you are required to register as a volunteer via the CISTA app.',
+          'Identity card detail is required for registration purposes and PACA activities.',
       },
       {
         question:
           'I am having trouble downloading the CISTA app outside of Malaysia.',
         answer:
-          'To become a volunteer, you are required to register as a volunteer via the CISTA app.',
+          'As of now, the CISTA app is only available in Malaysia.',
       },
     ],
   ];
@@ -78,6 +78,7 @@ const Faq = () => {
           <div className='text-7xl/[87px] mb-24 flex flex-col'>
             Frequently Asked Questions (FAQ)
           </div>
+          <div className='flex flex-col '>
             <button
               className={` ${
                 activeFaq === 0 ? 'bg-tp-red' : 'bg-tp-gray'
@@ -94,6 +95,7 @@ const Faq = () => {
             >
               CISTA Application
             </button>
+          </div>
         </div>
         <div className=' w-[50%]  text-tp-white pt-[8%] pr-[15%]'>
           {faqList[activeFaq].map((item, index, list) => {
@@ -172,7 +174,7 @@ const Faq = () => {
                     <div className='text-tp-yellow text-sm'>{item.answer}</div>
                   ) : null}
                   {index !== list.length - 1 && (
-                    <div className='w-full h-[1px] bg-tp-white mt-8 ' />
+                    <div className='w-full h-[1px] bg-tp-white mt-4 ' />
                   )}
                 </div>
               );
