@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="mb-20 text-xs">SITEMAP</div>
         <div className="flex flex-col mb-24 gap-3">
           <Link href='/'>Home</Link>
-          <Link href='/'>Tawaran Perpaduan</Link>
+          <Link href='/'>Pencapaian Madani</Link>
           <Link href='/volunteer'>Volunteer</Link>
           <Link href='/faq'>FAQs</Link>
         </div>
