@@ -13,12 +13,12 @@ const NavbarMobile = ({ children }) => {
         className='h-20 z-40 text-tp-white mr-[5%]'
         onClick={() => setShowMenu(true)}
       >
-        OPEN
+        <img src='images/burgerMenu.png' />
       </button>
       {showMenu ? (
         <div className='w-screen h-screen fixed z-50 bg-tp-darkBlue top-0 left-0 text-tp-white flex flex-col justify-between p-[3%] items-center '>
           <div className='w-full h-16 flex justify-end'>
-            <button onClick={() => setShowMenu(false)}>CLOSE</button>
+            <button onClick={() => setShowMenu(false)}><img src='images/exit.png' /></button>
           </div>
           <div className='flex flex-col items-center gap-10'>
             <Link href='/home' onClick={() => setShowMenu(false)}>
@@ -35,7 +35,7 @@ const NavbarMobile = ({ children }) => {
             </Link>
           </div>
           <div className='bg-tp-white flex flex-row h-10'>
-            <button
+            {/* <button
               className={`px-7 ${
                 language === 0
                   ? 'bg-tp-red text-tp-white'
@@ -54,7 +54,7 @@ const NavbarMobile = ({ children }) => {
               onClick={() => setLanguage(1)}
             >
               ENG
-            </button>
+            </button> */}
           </div>
         </div>
       ) : null}

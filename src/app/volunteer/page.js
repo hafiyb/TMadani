@@ -34,7 +34,14 @@ const Volunteer = () => {
             canvassing, training to become PACAs — download the CISTA App and
             register today. Perpaduan is driven by people like you.
           </div>
-          <img className='mb-20' src='images/homeSection2-3.png' />
+        <div className='flex flex-row gap-5 mb-20'>
+          <button>
+            <img src='images/logoAppStore.png' />
+          </button>
+          <button>
+            <img src='images/logoPlayStore.png' />
+          </button>
+        </div>
         </div>
       </div>
       <div className='bg-tp-darkBlue w-full h-40' />
@@ -60,7 +67,7 @@ const Volunteer = () => {
             Tawaran Madani is driven by people like you.
           </div>
         </div>
-        <img src='images/homeSection2-2.png' />
+        <img className='my-10' src='images/homeSection2-2.png' />
       </div>
       <div className='bg-tp-darkBlue flex flex-col text-tp-white px-[10%] pt-80 '>
         <div className='text-xl'>
@@ -68,7 +75,14 @@ const Volunteer = () => {
           canvassing, training to become PACAs — download the CISTA App and
           register today. Perpaduan is driven by people like you.
         </div>
-        <img className='my-10' src='images/homeSection2-3.png' />
+        <div className='flex flex-row gap-5 mb-20'>
+          <button>
+            <img src='images/logoAppStore.png' />
+          </button>
+          <button>
+            <img src='images/logoPlayStore.png' />
+          </button>
+        </div>
       </div>
       <FooterMobile />
     </div>

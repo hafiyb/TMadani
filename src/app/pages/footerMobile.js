@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const FooterMobile = () => {
   return (
-    <div className='w-full bg-tp-darkBlue flex flex-col justify-between text-tp-white items-center'>
+    <div className='w-full bg-tp-darkBlue flex flex-col justify-between text-tp-white items-center pt-32'>
       {/* <img src='images/TPlogoFooter.png' className='mb-5 mt-[500px]' />
       <div className='text-xl'>Hakcipta © 2023 | Undi Perpaduan</div> */}
       <div className='flex flex-col items-center text-tp-white'>

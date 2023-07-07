@@ -1,11 +1,14 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import NavbarMobile from './navbarMobile';
+import { LangContext } from '@/context/LangContext';
 
 const Navbar = ({ children }) => {
   const [language, setLanguage] = useState(0);
+
+  // const { lang, changeLang, text } = useContext(LangContext)
 
   const [width, setWidth] = useState(0);
 
@@ -42,14 +45,14 @@ const Navbar = ({ children }) => {
             >
               FAQ
             </Link>
-            <div className='bg-tp-white flex flex-row'>
+            {/* <div className='bg-tp-white flex flex-row'>
               <button
                 className={`px-7 ${
                   language === 0
                     ? 'bg-tp-red text-tp-white'
                     : 'bg-tp-white text-tp-gray2'
                 }`}
-                onClick={() => setLanguage(0)}
+                onClick={() => changeLang('bm')}
               >
                 BM
               </button>
@@ -59,14 +62,14 @@ const Navbar = ({ children }) => {
                     ? 'bg-tp-red text-tp-white'
                     : 'bg-tp-white text-tp-gray2'
                 }`}
-                onClick={() => setLanguage(1)}
+                onClick={() => changeLang('eng')}
               >
                 ENG
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className='w-full  '>{children}</div>
+        <div className='w-full'>{children}</div>
       </div>
     </div>
   ) : (

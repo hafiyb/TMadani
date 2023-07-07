@@ -1,9 +1,10 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import Footer from '../pages/footer';
 import Link from 'next/link';
 import FooterMobile from '../pages/footerMobile';
+import { LangContext } from '@/context/LangContext';
 
 const Homepage = () => {
   const [language, setLanguage] = useState(0);
@@ -12,6 +13,12 @@ const Homepage = () => {
   useEffect(() => {
     setWidth(window.innerWidth);
   });
+
+  // const {lang, text} = useContext(LangContext)
+
+  // useEffect(() => {
+  //   console.log('hehe')
+  // }, [lang])
 
   return width >= 1280 ? (
     // ========================================================================================================================================
@@ -84,7 +91,14 @@ const Homepage = () => {
             Even as the ruling government, we believe it is our responsibility
             to run a principled campaign.
           </div>
-          <img className='mb-20' src='images/homeSection2-3.png' />
+          <div className='flex flex-row gap-5 mb-20'>
+            <button>
+              <img src='images/logoAppStore.png' />
+            </button>
+            <button>
+              <img src='images/logoPlayStore.png' />
+            </button>
+          </div>
           <div className='flex flex-row text-2xl/[40px] '>
             <div>
               So our campaign doesn’t use taxpayer money or federal resources.
@@ -174,8 +188,18 @@ const Homepage = () => {
             in an event near you.
           </div>
         </div>
-        <img className='p-[5%]' src='images/homeSection2-3.png' />
-        <img src='images/homeSection2-2.png' className='relative left-[-20%] top-40' />
+        <div className='flex flex-row gap-5 mb-20 w-full'>
+          <button>
+            <img src='images/logoAppStore.png' />
+          </button>
+          <button>
+            <img src='images/logoPlayStore.png' />
+          </button>
+        </div>
+        <img
+          src='images/homeSection2-2.png'
+          className='relative left-[-20%] top-40'
+        />
       </div>
       <FooterMobile />
     </div>
