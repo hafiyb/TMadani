@@ -27,7 +27,7 @@ const Volunteer = () => {
         />
         <div className=' w-[50%] text-tp-white pt-[15%] pr-[15%]'>
           <div className='text-title'>
-            Undi Perpaduan is driven by people like you.
+            Tawaran Madani is driven by people like you.
           </div>
           <div className='text-2xl/[40px] my-16'>
             If you would like to join our field teams — calling fence-sitters &
@@ -55,9 +55,9 @@ const Volunteer = () => {
         style={{ backgroundImage: 'url(images/volunteer1.png)' }}
       >
         <div className='mb-14'>
-          <div className='text-4xl mb-10'>UNDI PERPADUAN</div>
+          <div className='text-4xl mb-10'>TAWARAN MADANI</div>
           <div className='text-title'>
-            Undi Perpaduan is driven by people like you.
+            Tawaran Madani is driven by people like you.
           </div>
         </div>
         <img src='images/homeSection2-2.png' />

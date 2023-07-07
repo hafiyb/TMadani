@@ -30,8 +30,9 @@ module.exports = {
           gray: "#8E8E8E",
           gray2: "#C9C9C9",
           white: "#FFFFFF",
-          whiteTranslucent: "rgba(255,255,255,41)",
-          yellow: '#E0B709'
+          whiteTranslucent: "rgba(255, 255, 255, 0.20)",
+          yellow: '#E0B709',
+          blackTranslucent: 'rgba(0, 0, 0, 0.15)'
         },
       },
     },

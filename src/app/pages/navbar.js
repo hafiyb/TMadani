@@ -16,7 +16,7 @@ const Navbar = ({ children }) => {
     <div className='flex min-w-full justify-center bg-tp-darkBlue bg-cover'>
       <div className='relative min-h-screen w-full items-start justify-center '>
         <div className='flex flex-row pt-8 px-6 w-full items-center justify-between'>
-          <h6 className='text-tp-white z-50'>UNDI PERPADUAN</h6>
+          <h6 className='text-tp-white z-50'>TAWARAN MADANI</h6>
           <div className='flex flex-row align-middle justify gap-4 h-9 z-50'>
             <Link
               href='/home'
