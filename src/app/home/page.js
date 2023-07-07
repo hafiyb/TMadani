@@ -120,7 +120,7 @@ const Homepage = () => {
         style={{ backgroundImage: 'url(images/volunteer1.png)' }}
       >
         <div>
-          <div className='text-4xl mb-10'>UNDI PERPADUAN</div>
+          <div className='text-4xl mb-10'>TAWARAN MADANI</div>
           <div className=' text-2xl/[40px]'>
             The job of government is to ensure that no one is left behind.
           </div>
