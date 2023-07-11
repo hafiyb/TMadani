@@ -5,10 +5,20 @@ import Footer from '../pages/footer';
 import Link from 'next/link';
 import FooterMobile from '../pages/footerMobile';
 import { LangContext } from '@/context/LangContext';
+import { appStoreCistaLink, playStoreCistaLink } from '@/constants';
 
 const Homepage = () => {
   const [language, setLanguage] = useState(0);
   const [width, setWidth] = useState(0);
+  const [bgIndex, setBgIndex] = useState(0);
+  const bgList = [
+    'url(images/hero1.png)',
+    'url(images/hero2.png)',
+    'url(images/hero3.png)',
+    'url(images/hero4.png)',
+    'url(images/hero5.png)',
+    'url(images/hero6.png)',
+  ];
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -32,18 +42,23 @@ const Homepage = () => {
       {/* ======================================================================================================================================== */}
       <div
         className='relative w-full h-screen bg-cover'
-        style={{ backgroundImage: 'url(images/hero1.png)' }}
+        style={{ backgroundImage: bgList[bgIndex] }}
       >
         <div className='absolute text-title text-tp-white w-96 bottom-[45%] right-[30%] leading-[72px]'>
           The job of government is to ensure that no one is left behind.
         </div>
-        <div className='absolute w-full text-hero text-tp-white bottom-[10%] pl -20'>
+        <div className='absolute w-full text-hero text-tp-white bottom-[10%] pl-20 '>
           Tiada yang Tertinggal.
         </div>
         <img
           src={'images/TPlogo.png'}
           className='absolute bottom-[30%] right-[3%]'
         />
+        <div className=' absolute right-24 bottom-12 gap-2 flex flex-row'>
+          {bgList.map((bg, index) => {
+            return <div className={`rounded-full w-10 h-10 ${bgIndex === index ? 'bg-tp-white' : 'bg-tp-gray'}`} onClick={() => setBgIndex(index)}/>;
+          })}
+        </div>
       </div>
       {/* ======================================================================================================================================== */}
       {/* Section 1 */}
@@ -92,14 +107,14 @@ const Homepage = () => {
             to run a principled campaign.
           </div>
           <div className='flex flex-row gap-5 mb-20'>
-            <button>
+            <a href={appStoreCistaLink}>
               <img src='images/logoAppStore.png' />
-            </button>
-            <button>
+            </a>
+            <a href={playStoreCistaLink}>
               <img src='images/logoPlayStore.png' />
-            </button>
+            </a>
           </div>
-          <div className='flex flex-row text-2xl/[40px] '>
+          <div className='flex flex-row text-2xl/[40px] gap-5'>
             <div>
               So our campaign doesn’t use taxpayer money or federal resources.
             </div>
@@ -189,12 +204,12 @@ const Homepage = () => {
           </div>
         </div>
         <div className='flex flex-row gap-5 mb-20 w-full'>
-          <button>
+          <a href={appStoreCistaLink}>
             <img src='images/logoAppStore.png' />
-          </button>
-          <button>
+          </a>
+          <a href={playStoreCistaLink}>
             <img src='images/logoPlayStore.png' />
-          </button>
+          </a>
         </div>
         <img
           src='images/homeSection2-2.png'

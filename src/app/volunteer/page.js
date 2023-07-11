@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import Footer from '../pages/footer';
 import FooterMobile from '../pages/footerMobile';
+import { appStoreCistaLink, playStoreCistaLink } from '@/constants';
 
 const Volunteer = () => {
   const [width, setWidth] = useState(0);
@@ -35,12 +36,12 @@ const Volunteer = () => {
             register today. Perpaduan is driven by people like you.
           </div>
         <div className='flex flex-row gap-5 mb-20'>
-          <button>
+          <a href={appStoreCistaLink}>
             <img src='images/logoAppStore.png' />
-          </button>
-          <button>
+          </a>
+          <a href={playStoreCistaLink}>
             <img src='images/logoPlayStore.png' />
-          </button>
+          </a>
         </div>
         </div>
       </div>
@@ -76,12 +77,12 @@ const Volunteer = () => {
           register today. Perpaduan is driven by people like you.
         </div>
         <div className='flex flex-row gap-5 mb-20'>
-          <button>
+          <a href={appStoreCistaLink}>
             <img src='images/logoAppStore.png' />
-          </button>
-          <button>
+          </a>
+          <a href={playStoreCistaLink}>
             <img src='images/logoPlayStore.png' />
-          </button>
+          </a>
         </div>
       </div>
       <FooterMobile />
