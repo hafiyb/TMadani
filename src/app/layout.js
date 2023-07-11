@@ -1,6 +1,7 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 import Navbar from './pages/navbar';
+import LangContextProvider from '@/context/LangContext';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -12,9 +13,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html className='flex flex-col' lang='en'>
-      <body>
-        <Navbar className='h-auto'>{children}</Navbar>
-      </body>
+      <LangContextProvider>
+        <body>
+          <Navbar className='h-auto'>{children}</Navbar>
+        </body>
+      </LangContextProvider>
     </html>
   );
 }

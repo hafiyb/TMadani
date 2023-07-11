@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import Footer from '../pages/footer';
 import FooterMobile from '../pages/footerMobile';
+import { appStoreCistaLink, playStoreCistaLink } from '@/constants';
 
 const Volunteer = () => {
   const [width, setWidth] = useState(0);
@@ -34,7 +35,14 @@ const Volunteer = () => {
             canvassing, training to become PACAs — download the CISTA App and
             register today. Perpaduan is driven by people like you.
           </div>
-          <img className='mb-20' src='images/homeSection2-3.png' />
+        <div className='flex flex-row gap-5 mb-20'>
+          <a href={appStoreCistaLink}>
+            <img src='images/logoAppStore.png' />
+          </a>
+          <a href={playStoreCistaLink}>
+            <img src='images/logoPlayStore.png' />
+          </a>
+        </div>
         </div>
       </div>
       <div className='bg-tp-darkBlue w-full h-40' />
@@ -60,7 +68,7 @@ const Volunteer = () => {
             Tawaran Madani is driven by people like you.
           </div>
         </div>
-        <img src='images/homeSection2-2.png' />
+        <img className='my-10' src='images/homeSection2-2.png' />
       </div>
       <div className='bg-tp-darkBlue flex flex-col text-tp-white px-[10%] pt-80 '>
         <div className='text-xl'>
@@ -68,7 +76,14 @@ const Volunteer = () => {
           canvassing, training to become PACAs — download the CISTA App and
           register today. Perpaduan is driven by people like you.
         </div>
-        <img className='my-10' src='images/homeSection2-3.png' />
+        <div className='flex flex-row gap-5 mb-20'>
+          <a href={appStoreCistaLink}>
+            <img src='images/logoAppStore.png' />
+          </a>
+          <a href={playStoreCistaLink}>
+            <img src='images/logoPlayStore.png' />
+          </a>
+        </div>
       </div>
       <FooterMobile />
     </div>
