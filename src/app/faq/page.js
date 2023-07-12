@@ -123,7 +123,7 @@ const Faq = () => {
       {/* HERO */}
       {/* ======================================================================================================================================== */}
       <div
-        className='relative w-full h-screen bg-cover bg-center text-tp-white py-[20%] px-[5%] flex flex-col justify-between'
+        className='relative w-full min-h-screen bg-cover bg-center text-tp-white py-[20%] px-[5%] flex flex-col justify-between'
         style={{ backgroundImage: 'url(images/volunteer1.png)' }}
       >
         <div>

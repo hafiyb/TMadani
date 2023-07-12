@@ -330,12 +330,12 @@ const Volunteer = () => {
     // mobile version here
     // ========================================================================================================================================
     // ========================================================================================================================================
-    <div className='flex flex-col justify-center min-h-full min-w-full absolute top-0'>
+    <div className='flex flex-col justify-center min-h-full w-full absolute top-0'>
       {/* ======================================================================================================================================== */}
       {/* HERO */}
       {/* ======================================================================================================================================== */}
       <div
-        className='relative w-full h-screen bg-cover bg-center text-tp-white py-[20%] px-[5%] flex flex-col justify-between'
+        className='relative w-full h-screen bg-cover bg-center text-tp-white py-[20%] px-[10%] flex flex-col justify-between'
         style={{ backgroundImage: 'url(images/volunteer1.png)' }}
       >
         <div>
@@ -350,9 +350,9 @@ const Volunteer = () => {
             {text.pencapaian.section1_text3}
           </div>
         </div>
-        <div className='text-[72px]/[80px]'>Pencapaian Madani.</div>
+        <div className='text-[60px]/[72px]'>Pencapaian Madani.</div>
       </div>
-      <div className='bg-tp-white flex flex-col '>
+      <div className='bg-tp-white flex flex-col px-[10%]'>
         <div className='text-title px-[5%] py-32 text-center'>
           If these policy objectives resonate with you, undilah perpaduan.
         </div>

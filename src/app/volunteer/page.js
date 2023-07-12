@@ -68,13 +68,13 @@ const Volunteer = () => {
         </div>
         <img className='my-10' src='images/homeSection2-2.png' />
       </div>
-      <div className='bg-tp-darkBlue flex flex-col text-tp-white px-[10%] pt-80 '>
+      <div className='bg-tp-darkBlue flex flex-col text-tp-white px-[10%] pt-[500px] '>
         <div className='text-xl'>
           If you would like to join our field teams — calling fence-sitters &
           canvassing, training to become PACAs — download the CISTA App and
           register today. Perpaduan is driven by people like you.
         </div>
-        <div className='flex flex-row gap-5 mb-20'>
+        <div className='flex flex-row gap-5 mb-20 mt-20'>
           <a href={appStoreCistaLink}>
             <img src='images/logoAppStore.png' />
           </a>
