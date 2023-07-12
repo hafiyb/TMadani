@@ -17,7 +17,7 @@ const Volunteer = () => {
   const pencapaianMadani = [
     [
       {
-        question: 'Inisiatif Pendapatan Rakyat (IPR)',
+        question: text.pencapaian.s1q1,
         answer: [
           text.pencapaian.s1q1a1,
           text.pencapaian.s1q1a2,
@@ -27,7 +27,7 @@ const Volunteer = () => {
         ],
       },
       {
-        question: 'Inisiatif Kemudahan Rakyat (IKR)',
+        question: text.pencapaian.s1q2,
         answer: [
           text.pencapaian.s1q2a1,
           text.pencapaian.s1q2a2,
@@ -35,7 +35,7 @@ const Volunteer = () => {
         ],
       },
       {
-        question: 'Hiring of 4,914 Permanent Doctors in MOH',
+        question: text.pencapaian.s1q3,
         answer: [
           text.pencapaian.s1q3a1,
           text.pencapaian.s1q3a2,
@@ -43,87 +43,53 @@ const Volunteer = () => {
         ],
       },
       {
-        question: 'Academy in Factory Initiative',
-        answer: [
-          text.pencapaian.s1q4a1,
-          text.pencapaian.s1q4a2,
-        ],
+        question: text.pencapaian.s1q4,
+        answer: [text.pencapaian.s1q4a1, text.pencapaian.s1q4a2],
       },
       {
-        question: 'BERNAS Profit-Sharing for Rice Farmers',
-        answer: [
-          text.pencapaian.s1q5a1,
-          text.pencapaian.s1q5a2,
-        ],
+        question: text.pencapaian.s1q5,
+        answer: [text.pencapaian.s1q5a1, text.pencapaian.s1q5a2],
       },
       {
-        question: 'Subang Airport Regeneration Plan',
-        answer: [
-          text.pencapaian.s1q6a1,
-          text.pencapaian.s1q6a2,
-        ],
+        question: text.pencapaian.s1q6,
+        answer: [text.pencapaian.s1q6a1, text.pencapaian.s1q6a2],
       },
       {
-        question: 'RM25.5 billion investment from AWS and Tesla',
-        answer: [
-          text.pencapaian.s1q7a1,
-          text.pencapaian.s1q7a2,
-        ],
+        question: text.pencapaian.s1q7,
+        answer: [text.pencapaian.s1q7a1, text.pencapaian.s1q7a2],
       },
       {
-        question: 'RM30 billion investment from Geely',
-        answer: [
-          text.pencapaian.s1q8a1,
-          text.pencapaian.s1q8a2,
-        ],
+        question: text.pencapaian.s1q8,
+        answer: [text.pencapaian.s1q8a1, text.pencapaian.s1q8a2],
       },
       {
-        question: 'Termination of PUSPAKOM and MyEG Monopolies',
-        answer: [
-          text.pencapaian.s1q9a1,
-          text.pencapaian.s1q9a2,
-        ],
+        question: text.pencapaian.s1q9,
+        answer: [text.pencapaian.s1q9a1, text.pencapaian.s1q9a2],
       },
       {
-        question: 'SME Grant Scheme',
-        answer: [
-          text.pencapaian.s1q10a1,
-          text.pencapaian.s1q10a2,
-        ],
+        question: text.pencapaian.s1q10,
+        answer: [text.pencapaian.s1q10a1, text.pencapaian.s1q10a2],
       },
     ],
     [
       {
-        question:
-          'Electricity Tariff Freeze for Residential Homes and Small Business',
-        answer: [
-          text.pencapaian.s2q1a1,
-          text.pencapaian.s2q1a2,
-        ],
+        question: text.pencapaian.s2q1,
+        answer: [text.pencapaian.s2q1a1, text.pencapaian.s2q1a2],
       },
       {
-        question: 'Payung Rahmah Initiative',
-        answer: [
-          text.pencapaian.s2q2a1,
-          text.pencapaian.s2q2a2,
-        ],
+        question: text.pencapaian.s2q2,
+        answer: [text.pencapaian.s2q2a1, text.pencapaian.s2q2a2],
       },
       {
-        question: 'Facilitation of Egg Supply',
-        answer: [
-          text.pencapaian.s2q3a1,
-          text.pencapaian.s2q3a2,
-        ],
+        question: text.pencapaian.s2q3,
+        answer: [text.pencapaian.s2q3a1, text.pencapaian.s2q3a2],
       },
       {
-        question: '2% Income Tax Reduction for M40',
-        answer: [
-          text.pencapaian.s2q4a1,
-          text.pencapaian.s2q4a2,
-        ],
+        question: text.pencapaian.s2q4,
+        answer: [text.pencapaian.s2q4a1, text.pencapaian.s2q4a2],
       },
       {
-        question: 'Sumbangan Tunai Rahmah (STR) Incentives',
+        question: text.pencapaian.s2q5,
         answer: [
           text.pencapaian.s2q5a1,
           text.pencapaian.s2q5a2,
@@ -131,34 +97,23 @@ const Volunteer = () => {
         ],
       },
       {
-        question: 'Madani Medical Scheme',
-        answer: [
-          text.pencapaian.s2q6a1,
-          text.pencapaian.s2q6a2,
-        ],
+        question: text.pencapaian.s2q6,
+        answer: [text.pencapaian.s2q6a1, text.pencapaian.s2q6a2],
       },
       {
-        question: '8% Reduction in BESRAYA and LEKAS Tolls',
-        answer: [
-          text.pencapaian.s2q7a1,
-        ],
+        question: text.pencapaian.s2q7,
+        answer: [text.pencapaian.s2q7a1],
       },
       {
-        question: 'Free KTM Travel for Primary School Students and OKUs',
-        answer: [
-          text.pencapaian.s2q8a1,
-          text.pencapaian.s2q8a2,
-        ],
+        question: text.pencapaian.s2q8,
+        answer: [text.pencapaian.s2q8a1, text.pencapaian.s2q8a2],
       },
       {
-        question: 'Reduction of Gas Facility Charge 2023-2025',
-        answer: [
-          text.pencapaian.s2q9a1,
-          text.pencapaian.s2q9a2,
-        ],
+        question: text.pencapaian.s2q9,
+        answer: [text.pencapaian.s2q9a1, text.pencapaian.s2q9a2],
       },
       {
-        question: 'Seasonal Travel Cost and Capacity Controls',
+        question: text.pencapaian.s2q10,
         answer: [
           text.pencapaian.s2q10a1,
           text.pencapaian.s2q10a2,
@@ -168,7 +123,7 @@ const Volunteer = () => {
     ],
     [
       {
-        question: '40 Flood Mitigation Projects in Kelantan & Terengganu',
+        question: text.pencapaian.s3q1,
         answer: [
           text.pencapaian.s3q1a1,
           text.pencapaian.s3q1a2,
@@ -176,135 +131,82 @@ const Volunteer = () => {
         ],
       },
       {
-        question: '47% of Sick PR1MA Projects Completed in 5 Months',
-        answer: [
-          text.pencapaian.s3q2a1,
-          text.pencapaian.s3q2a2,
-        ],
+        question: text.pencapaian.s3q2,
+        answer: [text.pencapaian.s3q2a1, text.pencapaian.s3q2a2],
       },
       {
-        question: '7,000 New Affordable Housing Units under SASaR',
-        answer: [
-          text.pencapaian.s3q3a1,
-        ],
+        question: text.pencapaian.s3q3,
+        answer: [text.pencapaian.s3q3a1],
       },
       {
-        question: "Emergency Funding for 'Sick' PPRs",
-        answer: [
-          text.pencapaian.s3q4a1,
-          text.pencapaian.s3q4a2,
-        ],
+        question: text.pencapaian.s3q4,
+        answer: [text.pencapaian.s3q4a1, text.pencapaian.s3q4a2],
       },
       {
-        question: 'Transition of Government Buildings to Solar Energy',
-        answer: [
-          text.pencapaian.s3q5a1,
-          text.pencapaian.s3q5a2,
-        ],
+        question: text.pencapaian.s3q5,
+        answer: [text.pencapaian.s3q5a1, text.pencapaian.s3q5a2],
       },
       {
-        question: 'High-Powered Portable Pumps for Flood Response',
-        answer: [
-          text.pencapaian.s3q6a1,
-        ],
+        question: text.pencapaian.s3q6,
+        answer: [text.pencapaian.s3q6a1],
       },
       {
-        question: 'RM1.5 billion for Kelantan Water Infrastructure',
-        answer: [
-          text.pencapaian.s3q7a1,
-        ],
+        question: text.pencapaian.s3q7,
+        answer: [text.pencapaian.s3q7a1],
       },
       {
-        question: 'RM11 billion Savings on ECRL',
-        answer: [
-          text.pencapaian.s3q8a1,
-          text.pencapaian.s3q8a2,
-        ],
+        question: text.pencapaian.s3q8,
+        answer: [text.pencapaian.s3q8a1, text.pencapaian.s3q8a2],
       },
       {
-        question: 'RM2.8 billion for Prasarana Equipment Replacement',
-        answer: [
-          text.pencapaian.s3q9a1,
-        ],
+        question: text.pencapaian.s3q9,
+        answer: [text.pencapaian.s3q9a1],
       },
       {
-        question: '7 New EV Charging Stations on PLUS',
-        answer: [
-          text.pencapaian.s3q10a1,
-          text.pencapaian.s3q10a2,
-        ],
+        question: text.pencapaian.s3q10,
+        answer: [text.pencapaian.s3q10a1, text.pencapaian.s3q10a2],
       },
     ],
     [
       {
-        question: '21,000kg of Food Supply for Orang Asli',
-        answer: [
-          text.pencapaian.s4q1a1,
-          text.pencapaian.s4q1a2,
-        ],
+        question: text.pencapaian.s4q1,
+        answer: [text.pencapaian.s4q1a1, text.pencapaian.s4q1a2],
       },
       {
-        question: 'Citizenship via Malaysian Mothers',
-        answer: [
-          text.pencapaian.s4q2a1,
-          text.pencapaian.s4q2a2,
-        ],
+        question: text.pencapaian.s4q2,
+        answer: [text.pencapaian.s4q2a1, text.pencapaian.s4q2a2],
       },
       {
-        question: "'Kill Switch' Policy for Banks",
-        answer: [
-          text.pencapaian.s4q3a1,
-          text.pencapaian.s4q3a2,
-        ],
+        question: text.pencapaian.s4q3,
+        answer: [text.pencapaian.s4q3a1, text.pencapaian.s4q3a2],
       },
       {
-        question: "'Second Chance' Policy for Bankrupts",
-        answer: [
-          text.pencapaian.s4q4a1,
-          text.pencapaian.s4q4a2,
-        ],
+        question: text.pencapaian.s4q4,
+        answer: [text.pencapaian.s4q4a1, text.pencapaian.s4q4a2],
       },
       {
-        question: '289 Additional Schools Catering to Special Needs Children',
-        answer: [
-          text.pencapaian.s4q5a1,
-          text.pencapaian.s4q5a2,
-        ],
+        question: text.pencapaian.s4q5,
+        answer: [text.pencapaian.s4q5a1, text.pencapaian.s4q5a2],
       },
       {
-        question: 'New Affordable Housing Quality Standards',
-        answer: [
-          text.pencapaian.s4q6a1,
-          text.pencapaian.s4q6a2,
-        ],
+        question: text.pencapaian.s4q6,
+        answer: [text.pencapaian.s4q6a1, text.pencapaian.s4q6a2],
       },
       {
-        question: 'Regulation of Vapes',
-        answer: [
-          text.pencapaian.s4q7a1,
-          text.pencapaian.s4q7a2,
-        ],
+        question: text.pencapaian.s4q7,
+        answer: [text.pencapaian.s4q7a1, text.pencapaian.s4q7a2],
       },
       {
-        question:
-          'Reactivation of Penang Bumiputera Development Council (PBDC)',
-        answer: [
-          text.pencapaian.s4q8a1,
-          text.pencapaian.s4q8a2,
-        ],
+        question: text.pencapaian.s4q8,
+        answer: [text.pencapaian.s4q8a1, text.pencapaian.s4q8a2],
       },
       {
-        question: 'RM100 million Flood Allocation for Kelantan and Terengganu',
-        answer: [
-          text.pencapaian.s4q9a1,
-        ],
+        question: text.pencapaian.s4q9,
+        answer: [text.pencapaian.s4q9a1],
       },
       {
-        question: 'Free Pneumococcal Vaccines for Children',
-        answer: [
-          text.pencapaian.s4q10a1,
-          text.pencapaian.s4q10a2,
-        ],
+        question: text.pencapaian.s4q10,
+        answer: [text.pencapaian.s4q10a1, text.pencapaian.s4q10a2],
       },
     ],
   ];
@@ -326,18 +228,13 @@ const Volunteer = () => {
       >
         <div className='flex justify-end items-start'>
           <div className='w-[50%] text-title p-[10%]'>
-            The Madani Government has administered Malaysia for just over 6
-            months.
+            {text.pencapaian.section1_text1}
           </div>
           <div className='w-[50%] text-2xl/[40px] p-[10%]'>
-            In that short period, multiple initiatives have been rolled out to
-            address the economic pressures that currently weigh down on the
-            Malaysian rakyat.
+            {text.pencapaian.section1_text2}
             <br />
             <br />
-            The following snapshot outlines relevant initiatives that the Madani
-            Government has already undertaken to help enable dignified work,
-            dignified wages, and a dignified life
+            {text.pencapaian.section1_text3}
           </div>
         </div>
         <div className=' w-full text-hero text-tp-white bottom-[10%]'>
@@ -358,7 +255,7 @@ const Volunteer = () => {
                   : 'bg-tp-blackTranslucent text-tp-gray'
               } py-5 px-10 text-2xl rounded-full justify-center items-center  `}
             >
-              Jobs
+              {text.pencapaian.s1}
             </button>
             <button
               onClick={() => handleActivePencapaian(1)}
@@ -368,7 +265,7 @@ const Volunteer = () => {
                   : 'bg-tp-blackTranslucent text-tp-gray'
               } py-5 px-10 text-2xl rounded-full justify-center items-center `}
             >
-              Cost of Living
+              {text.pencapaian.s2}
             </button>
             <button
               onClick={() => handleActivePencapaian(2)}
@@ -378,7 +275,7 @@ const Volunteer = () => {
                   : 'bg-tp-blackTranslucent text-tp-gray'
               } py-5 px-10 text-2xl rounded-full justify-center items-center `}
             >
-              Infrastructure
+              {text.pencapaian.s3}
             </button>
             <button
               onClick={() => handleActivePencapaian(3)}
@@ -388,7 +285,7 @@ const Volunteer = () => {
                   : 'bg-tp-blackTranslucent text-tp-gray'
               } py-5 px-10 text-2xl rounded-full justify-center items-center `}
             >
-              Welfare
+              {text.pencapaian.s4}
             </button>
           </div>
           <div className='w-[50%] px-[5%] flex flex-col'>
@@ -444,17 +341,13 @@ const Volunteer = () => {
         <div>
           <div className='text-4xl mb-10'>TAWARAN MADANI</div>
           <div className=' text-2xl/[40px] mb-10'>
-            The Madani Government has administered Malaysia for just over 6
-            months.
+            {text.pencapaian.section1_text1}
           </div>
           <div className='p-[5%]'>
-            In that short period, multiple initiatives have been rolled out to
-            address the economic pressures that currently weigh down on the
-            Malaysian rakyat. The following snapshot outlines relevant
+            {text.pencapaian.section1_text2}
             <br />
             <br />
-            initiatives that the Madani Government has already undertaken to
-            help enable dignified work, dignified wages, and a dignified life
+            {text.pencapaian.section1_text3}
           </div>
         </div>
         <div className='text-[72px]/[80px]'>Pencapaian Madani.</div>
@@ -473,7 +366,7 @@ const Volunteer = () => {
                   : 'bg-tp-blackTranslucent text-tp-gray'
               } py-5 px-10 text-2xl rounded-full justify-center items-center  `}
             >
-              Jobs
+              {text.pencapaian.s1}
             </button>
             <button
               onClick={() => handleActivePencapaian(1)}
@@ -483,7 +376,7 @@ const Volunteer = () => {
                   : 'bg-tp-blackTranslucent text-tp-gray'
               } py-5 px-10 text-2xl rounded-full justify-center items-center `}
             >
-              Cost of Living
+              {text.pencapaian.s2}
             </button>
             <button
               onClick={() => handleActivePencapaian(2)}
@@ -493,7 +386,7 @@ const Volunteer = () => {
                   : 'bg-tp-blackTranslucent text-tp-gray'
               } py-5 px-10 text-2xl rounded-full justify-center items-center `}
             >
-              Infrastructure
+              {text.pencapaian.s3}
             </button>
             <button
               onClick={() => handleActivePencapaian(3)}
@@ -503,7 +396,7 @@ const Volunteer = () => {
                   : 'bg-tp-blackTranslucent text-tp-gray'
               } py-5 px-10 text-2xl rounded-full justify-center items-center `}
             >
-              Welfare
+              {text.pencapaian.s4}
             </button>
           </div>
           <div className=' px-[5%] flex flex-col'>

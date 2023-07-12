@@ -22,6 +22,12 @@ export const malayLang = {
   },
   sukarelawan: {},
   pencapaian: {
+    section1_text1:
+      'Kerajaan Madani telah memimpin Malaysia selama dua suku tahun.',
+    section1_text2:
+      'Dalam tempoh itu, beberapa inisiatif telah dilaksanakan untuk menangani tekanan ekonomi yang kini membeban rakyat Malaysia.',
+    section1_text3:
+      'Senarai berikut menyatakan 40 inisiatif yang telah dilaksanakan oleh Kerajaan Madani demi mencapai peningkatan pekerjaan bermaruah, gaji bermaruah, dan kehidupan bermaruah di negara kita.',
     s1: 'Pekerjaan',
     s2: 'Kos Sara Hidup',
     s3: 'Infrastruktur',
@@ -191,44 +197,67 @@ export const malayLang = {
       'Di bawah Kerajaan Madani, RM90 juta telah diperuntukkan untuk membina 7 stesen pengecasan baru untuk kereta elektrik (EV) di Lebuhraya Utara-Selatan.',
     s3q10a2:
       'Ini merupakan tambahan kepada 3 stesen pengecasan EV yang sedia ada di Ayer Keroh, Tapah, dan Paka.',
-    s4a1a1:
+    s4q1a1:
       'Kerajaan Madani telah meluluskan bekalan makanan sebanyak 21,000kg untuk diagih kepada 1,400 keluarga Orang Asli di Kelantan.',
-    s4a1a2:
+    s4q1a2:
       'Pengedaran bekalan makanan tersebut telah dilaksanakan oleh Jabatan Bomba dan Penyelamat Malaysia.',
-    s4a2a1:
+    s4q2a1:
       'Kerajaan Madani telah mula proses penggubalan Bahagian III dalam Perlembagaan Persekutuan, agar anak-anak yang dilahir di luar negara kepada ibu warganegara Malaysia bakal mendapat kewarganegaraan.',
-    s4a2a2:
+    s4q2a2:
       'Selain itu, Kerajaan Madani juga telah menyelesaikan 8,288 dari 10,000 kes rayuan kewarganegaraan.',
-    s4a3a1:
+    s4q3a1:
       'Kerajaan Madani telah mengarahkan Bank Negara Malaysia untuk menguatkuasakan dasar ‘kill switch’ untuk semua institusi bank. ‘Kill switch’ tersebut memberi peluang kepada pelanggan untuk membekukan akaun dan kad mereka sekiranya ada aktiviti mencurigakan.',
-    s4a3a2:
+    s4q3a2:
       'Langkah tersebut diambil sebagai tindakan untuk lawan scam dan penipuan online.',
-    s4a4a1:
+    s4q4a1:
       'Kerajaan Madani telah melaksanakan dasar ‘Peluang Kedua’ untuk individu muflis di Malaysia.',
-    s4a4a2:
+    s4q4a2:
       'Kes kebankrapan di bawah jumlah RM50,000 telah dilepas secara automatik, dan pindaan kepada Akta Insolvensi 1967 akan dilaksanakan agar mempercepatkan pelepasan kes kebankrapan pada masa hadapan.',
-    s4a5a1:
+    s4q5a1:
       'Kerajaan Madani telah meningkatkan jumlah sekolah rendah dan sekolah menengah yang menawarkan Program Pendidikan Khas Integrasi (PPKI) dari 2,343 ke 2,632.',
-    s4a5a2:
+    s4q5a2:
       'Langkah ini akan memastikan tiada kanak-kanak kurang upaya tercicir mendapat pendidikan sewajarnya.',
-    s4a6a1:
+    s4q6a1:
       'Kerajaan Madani telah memutus bahawa 220,000 rumah mampu milik yang baru atau sedang dibina perlu lulus beberapa pengujian saintifik yang berkaitan dengan keselesaan.',
-    s4a6a2:
+    s4q6a2:
       'Antara penilaian tersebut termasuk pengujian terowongan angin (windtunnel), analisis sun-path, dan keselesaan terma.',
-    s4a7a1:
+    s4q7a1:
       'Kerajaan Madani telah menghalalkan vape, lalu menyediakan rangka kerja untuk kawalan lebih mendalam mengenai pengedaran peranti dan produk berkaitan.',
-    s4a7a2:
+    s4q7a2:
       'Langkah ini akan memberi peluang kepada Kerajaan untuk menguatkuasakan taraf kesihatan dan keselamatan minima terhadap produk tersebut, lalu membenarkan pemantauan lebih mendalam.',
-    s4a8a1:
+    s4q8a1:
       'Kerajaan Madani telah aktifkan semula Majlis Pembangunan Bumiputera Pulau Pinang (PBDC) di bawah Jabatan Perdana Menteri.',
-    s4a8a2:
+    s4q8a2:
       'PBDC akan bekerjasama dengan Kerajaan Negeri Pulau Pinang untuk mempercepatkan pembangunan komuniti Melayu di Pulau Pinang, dengan fokus kepada pembangunan tanah wakaf dan pemilikan harta.',
-    s4a9a1:
+    s4q9a1:
       'Kerajaan Madani telah memberi peruntukan RM100 juta kepada Kelantan dan RM100 juta kepada Terengganu untuk membiayai bantuan kepada mangsa-mangsa banjir bulan Disember.',
-    s4a10a1:
+    s4q10a1:
       'Kerajaan Madani telah memperkenalkan vaksin pneunookal percuma untuk kanak-kanak yang lahir antara tahun 2018 dan 2019.',
-    s4a10a2:
+    s4q10a2:
       'Inisiatif ini bertujuan untuk membantu kanak-kanak yang tidak terjamin di bawah Program Imunisasi Kebangsaan Malaysia sebelum ini.',
+  },
+  volunteer: {
+    section1_text1: 'Tawaran Madani is driven by people like you.',
+    section1_text2:
+      'Sekiranya anda ingin menyertai pasukan lapangan kami — menghubungi pengundi atas pagar & berjumpa mereka, atau dilatih untuk menjadi PACA — muat turun aplikasi CISTA dan daftar hari ini.',
+  },
+  faq: {
+    s1q1: 'How can I register as a volunteer for the Undi Perpaduan campaign?',
+    s1q2: 'I have registered as a volunteer. What activities can I do after this?',
+    s2q1: 'Bagaimanakah saya boleh memuat turun CISTA?',
+    s2q2: "Saya mengalami masalah untuk mendaftar aplikasi CISTA.",
+    s2q3: "Saya tidak boleh log masuk ke dalam aplikasi CISTA.",
+    s2q4: "Pendaftaran aplikasi CISTA mengambil masa yang lama.",
+    s2q5: "Kenapa pendaftaran CISTA memerlukan kad pengenalan? ",
+    s2q6: "Saya menghadapi kesukaran untuk memuat turun aplikasi CISTA luar daripada Malaysia.",
+    s1a1: "To become a volunteer, you are required to register as a volunteer via the CISTA app.",
+    s1a2: "Any latest activities regarding Undi Perpaduan will be updated on the CISTA app.",
+    s2a1: "CISTA boleh dimuat turun melalui App Store, Play Store & Huawei App Gallery.",
+    s2a2: "Pastikan anda memasukkan nombor telefon & nombor kad pengenalan yang sah sebelum menekan butang 'Daftar Akaun'.",
+    s2a3: "Pastikan nombor telefon dan kata laluan yang dimasukkan adalah tepat sebelum anda menekan butang 'Log Masuk'.",
+    s2a4: "Pastikan anda mempunyai rangkaian kelajuan internet yang stabil.",
+    s2a5: "Kenapa pendaftaran CISTA memerlukan kad pengenalan? ",
+    s2a6: "Aplikasi CISTA hanya didapati dan boleh dimuat turun di Malaysia sahaja buat masa kini.",
   },
 };
 
@@ -254,6 +283,12 @@ export const engLang = {
       'We need your support again - download the CISTA App and participate in an event near you.',
   },
   pencapaian: {
+    section1_text1:
+      'The Madani Government has administered Malaysia for just over 6 months.',
+    section1_text2:
+      'In that short period, multiple initiatives have been rolled out to address the economic pressures that currently weigh down on the Malaysian rakyat.',
+    section1_text3:
+      'The following snapshot outlines relevant initiatives that the Madani Government has already undertaken to help enable dignified work, dignified wages, and a dignified life',
     s1: 'Jobs',
     s2: 'Cost of Living',
     s3: 'Infrastructure',
@@ -423,43 +458,66 @@ export const engLang = {
       'Under the Madani Government, RM90 million has been allocated over a two-year period to build direct charging stations for EVs along the North-South Highway. ',
     s3q10a2:
       'These stations will augment the existing stations in Ayer Keroh, Tapah, and Paka.',
-    s4a1a1:
+    s4q1a1:
       'The Madani Government authorised the supply of 21,000kg of food to 1,400 Orang Asli families in Kelantan.',
-    s4a1a2:
+    s4q1a2:
       'The distribution of this food supply was undertaken by the Fire and Rescue Department, making use of helicopter equipment as villages were inaccessible via land after flooding. ',
-    s4a2a1:
+    s4q2a1:
       'The Madani Government has begun the process of amending Part III of the Federal Constitution to allow children born to Malaysian mothers abroad to obtain Malaysian citizenship.',
-    s4a2a2:
+    s4q2a2:
       'Separately, the Government has already resolved 8,288 out of 10,000 citizenship appeal cases.',
-    s4a3a1:
+    s4q3a1:
       "The Madani Government has instructed Bank Negara to enforce a 'kill switch' policy for all banking institutions, enabling users to immediately freeze their accounts and cards in the event of suspicious activity.",
-    s4a3a2:
+    s4q3a2:
       'The move has been pursued as a measure combat online fraud and scams.',
-    s4a4a1:
+    s4q4a1:
       "The Madani Government has implemented a 'Second Chance' policy for insolvents in Malaysia.",
-    s4a4a2:
+    s4q4a2:
       'Bankruptcy cases below RM50,000 have been automatically discharged, with amendments to the Insolvency Act passed in order to allow speedier discharge of bankruptcies in the future.',
-    s4a5a1:
+    s4q5a1:
       'The Madani Government has increased the number of primary and secondary schools offering the Integrated Special Needs Programme from 2,343 to 2,632.',
-    s4a5a2:
+    s4q5a2:
       "This will allow further enforcement of the 'zero reject policy', and ensure that special needs children throughout the country have access to education.",
-    s4a6a1:
+    s4q6a1:
       "The Madani Government has mandated that 220,000 new or incomplete affordable housing projects must abide by certain 'livability' and 'comfort' standards.",
-    s4a6a2:
+    s4q6a2:
       'Meeting these standards involve passing windtunnel tests, sun-path analysis, and thermal comfort analysis.',
-    s4a7a1:
+    s4q7a1:
       'The Madani Government has legalised e-cigarettes and vapes, allowing for the legal distribution and tighter regulation of such devices.',
-    s4a7a2:
+    s4q7a2:
       'This will enable the Government to enforce minimum health & safety standards on relevant products, and more closely monitor and intervene on vape-related health issues.',
-    s4a8a1:
+    s4q8a1:
       "The Madani Government has reactivated the PBDC under the Prime Minister's Department. ",
-    s4a8a2:
+    s4q8a2:
       'The PBDC works closely with the Penang State Government to accelerate the development of the Penang Malay community, and focuses on the development of wakaf land and bumiputera property ownership.',
-    s4a9a1:
+    s4q9a1:
       'The Madani Government allocated RM100 million to Kelantan and RM100 million to Terengganu to provide flood relief to those affected by the December floods.',
-    s4a10a1:
+    s4q10a1:
       'The Madani Government has introduced a one-year period of free pneumococcal vaccinations for children born between 2018 and 2019.',
-    s4a10a2:
+    s4q10a2:
       'This initiative seeks to close the gap present in the previous National Immunisation Programme, whereby children born between 2018 and 2019 were not covered.',
+  },
+  volunteer: {
+    section1_text1: 'Tawaran Madani is driven by people like you.',
+    section1_text2:
+      'If you would like to join our field teams — calling fence-sitters & canvassing, training to become PACAs — download the CISTA App and register today. Perpaduan is driven by people like you.',
+  },
+  faq: {
+    s1q1: 'How can I register as a volunteer for the Undi Perpaduan campaign?',
+    s1q2: 'I have registered as a volunteer. What activities can I do after this?',
+    s2q1: 'How can I download CISTA?',
+    s2q2: "I'm having trouble registering the CISTA application.",
+    s2q3: "I can't login into the CISTA app.",
+    s2q4: "CISTA app registration takes a long time to complete.",
+    s2q5: "Why does CISTA app registration require identity card detail?",
+    s2q6: "I am having trouble downloading the CISTA app outside of Malaysia.",
+    s1a1: "To become a volunteer, you are required to register as a volunteer via the CISTA app.",
+    s1a2: "Any latest activities regarding Undi Perpaduan will be updated on the CISTA app.",
+    s2a1: "CISTA can be downloaded via the App Store, Play Store & Huawei App Gallery.",
+    s2a2: "Make sure you enter a valid phone number & identity card number before pressing the 'Register Account' button.",
+    s2a3: "Make sure the phone number and password you enter are correct before you press the 'Sign In' button.",
+    s2a4: "Make sure you have a stable internet connection.",
+    s2a5: "Identity card detail is required for registration purposes and PACA activities.",
+    s2a6: "As of now, the CISTA app is only available in Malaysia.",
   },
 };

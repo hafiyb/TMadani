@@ -1,58 +1,48 @@
 'use client';
+import { LangContext } from '@/context/LangContext';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 
 const Faq = () => {
   const [faqOpen, setFaqOpen] = useState(false);
   const [activeFaq, setActiveFaq] = useState(0);
+  const { lang, text } = useContext(LangContext);
 
   const faqList = [
     [
       {
-        question:
-          'How can I register as a volunteer for the Undi Perpaduan campaign?',
-        answer:
-          'To become a volunteer, you are required to register as a volunteer via the CISTA app.',
+        question: text.faq.s1q1,
+        answer: text.faq.s1a1,
       },
       {
-        question:
-          'I have registered as a volunteer. What activities can I do after this?',
-        answer:
-          'Any latest activities regarding Undi Perpaduan will be updated on the CISTA app.',
+        question: text.faq.s1q2,
+        answer: text.faq.s1a2,
       },
     ],
     [
       {
-        question: 'How can I download CISTA?',
-        answer:
-          'CISTA can be downloaded via the App Store, Play Store & Huawei App Gallery.',
+        question: text.faq.s2q1,
+        answer: text.faq.s2a1,
       },
       {
-        question: "I'm having trouble registering the CISTA application.",
-        answer:
-          "Make sure you enter a valid phone number & identity card number before pressing the 'Register Account' button.",
+        question: text.faq.s2q2,
+        answer: text.faq.s2a2,
       },
       {
-        question: "I can't login into the CISTA app.",
-        answer:
-          "Make sure the phone number and password you enter are correct before you press the 'Sign In' button.",
+        question: text.faq.s2q3,
+        answer: text.faq.s2a3,
       },
       {
-        question: 'CISTA app registration takes a long time to complete.',
-        answer:
-          'Make sure you have a stable internet connection.',
+        question: text.faq.s2q4,
+        answer: text.faq.s2a4,
       },
       {
-        question:
-          'Why does CISTA app registration require identity card detail?',
-        answer:
-          'Identity card detail is required for registration purposes and PACA activities.',
+        question: text.faq.s2q5,
+        answer: text.faq.s2q5,
       },
       {
-        question:
-          'I am having trouble downloading the CISTA app outside of Malaysia.',
-        answer:
-          'As of now, the CISTA app is only available in Malaysia.',
+        question: text.faq.s2q6,
+        answer: text.faq.s2a6,
       },
     ],
   ];
