@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
       {/* <img src='images/TPlogoFooter.png'  className="p-[2%]"/> */}
       <div className='flex flex-row items-center text-tp-white'>
-        <div className='text-[300px]/[300px] text-[rgba(255,255,255,0.35)] w-[70%] mb-28 '>
+        <div className='text-[255px]/[255px] text-[rgba(255,255,255,0.35)] w-[70%] mb-28 '>
           MALAYSIA MADANI
         </div>
         <div>Hakcipta © 2023 | Undi Perpaduan</div>
