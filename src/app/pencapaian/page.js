@@ -335,7 +335,7 @@ const Volunteer = () => {
       {/* HERO */}
       {/* ======================================================================================================================================== */}
       <div
-        className='relative w-full min-h-screen bg-cover bg-center text-tp-white py-[20%] px-[10%] flex flex-col justify-between'
+        className='relative w-full min-h-screen bg-cover bg-center text-tp-white py-[20%] px-[8%] flex flex-col justify-between'
         style={{ backgroundImage: 'url(images/volunteer1.png)' }}
       >
         <div>
@@ -350,7 +350,7 @@ const Volunteer = () => {
             {text.pencapaian.section1_text3}
           </div>
         </div>
-        <div className='text-[60px]/[72px]'>Pencapaian Madani.</div>
+        <div className='text-[52px]/[60px]'>Pencapaian Madani.</div>
       </div>
       <div className='bg-tp-white flex flex-col px-[10%]'>
         <div className='text-title px-[5%] py-32 text-center'>
