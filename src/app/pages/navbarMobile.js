@@ -35,7 +35,7 @@ const NavbarMobile = ({ children }) => {
               FAQ
             </Link>
           </div>
-          <div className='bg-tp-white flex flex-row h-10'>
+          <div className='bg-tp-white flex flex-row h-10 mb-52'>
             <button
               className={`px-7 ${
                 lang === 'bm'
