@@ -24,11 +24,7 @@ const Homepage = () => {
     setWidth(window.innerWidth);
   });
 
-  // const {lang, text} = useContext(LangContext)
-
-  // useEffect(() => {
-  //   console.log('hehe')
-  // }, [lang])
+  const { lang, text } = useContext(LangContext);
 
   return width >= 1280 ? (
     // ========================================================================================================================================
@@ -45,7 +41,7 @@ const Homepage = () => {
         style={{ backgroundImage: bgList[bgIndex] }}
       >
         <div className='absolute text-title text-tp-white w-96 bottom-[45%] right-[30%] leading-[72px]'>
-          The job of government is to ensure that no one is left behind.
+          {text.home.text1}
         </div>
         <div className='absolute w-full text-hero text-tp-white bottom-[10%] pl-20 '>
           Tiada yang Tertinggal.
@@ -56,38 +52,34 @@ const Homepage = () => {
         />
         <div className=' absolute right-24 bottom-12 gap-2 flex flex-row'>
           {bgList.map((bg, index) => {
-            return <div className={`rounded-full w-10 h-10 ${bgIndex === index ? 'bg-tp-white' : 'bg-tp-gray'}`} onClick={() => setBgIndex(index)}/>;
+            return (
+              <div
+                className={`rounded-full w-10 h-10 ${
+                  bgIndex === index ? 'bg-tp-white' : 'bg-tp-gray'
+                }`}
+                onClick={() => setBgIndex(index)}
+              />
+            );
           })}
         </div>
       </div>
       {/* ======================================================================================================================================== */}
       {/* Section 1 */}
       {/* ======================================================================================================================================== */}
-      <div className='w-full h-screen bg-tp-darkBlue py-[5%] px-[10%] text-title'>
-        <div className='w-[70%] text-tp-white'>
-          The parties of the Unity Government believe in fair and equitable
-          treatment of Kedah, Kelantan, Negeri Sembilan, Pulau Pinang, Selangor,
-          and Terengganu.
-        </div>
+      <div className='w-full min-h-screen bg-tp-darkBlue py-[5%] px-[10%] text-title flex flex-col'>
+        <div className='w-[70%] text-tp-white'>{text.home.section1_text1}</div>
         <div className='flex flex-row py-[5%]'>
           <div className='text-2xl/[40px] flex flex-col text-tp-white px-[6%] w-[50%] gap-6'>
-            <div>
-              This means facilitating each state’s unique potential, by creating
-              economic opportunities that are locally relevant.
-            </div>
-            <div>
-              No anak negeri should have to leave home in order to achieve
-              prosperity and happiness.
-            </div>
-            <div>
-              By using technology and empowering enterprising individuals, we
-              believe we can lay these seeds of prosperity across the 6 states.
-            </div>
+            <div>{text.home.section1_text2}</div>
+            <div>{text.home.section1_text3}</div>
+            <div>{text.home.section1_text4}</div>
           </div>
           <div>
             <img src='images/homeSection1.png' />
-            <Link href='/' className='flex flex-row my-10 items-center'>
-              <div className='text-tp-white text-2xl'>Find out how</div>
+            <Link href='/pencapaian' className='flex flex-row my-10 items-center'>
+              <div className='text-tp-white text-2xl'>
+                {text.home.section1_text5}
+              </div>
               <div className='w-[28px] h-[28px] bg-tp-red rounded-full ml-3 text-2xl items-center justify-center flex text-tp-white'>
                 ➔
               </div>
@@ -98,14 +90,11 @@ const Homepage = () => {
       {/* ======================================================================================================================================== */}
       {/* Section 2 */}
       {/* ======================================================================================================================================== */}
-      <div className='w-full h-screen bg-tp-white relative'>
+      <div className='w-full min-h-screen bg-tp-white relative flex'>
         <img src='images/homeSection2-1.png' className='absolute right-[5%]' />
         <img src='images/homeSection2-2.png' className='absolute left-[-5%]' />
-        <div className='py-[10%] px-[30%] text-tp-dark'>
-          <div className='text-title mb-32'>
-            Even as the ruling government, we believe it is our responsibility
-            to run a principled campaign.
-          </div>
+        <div className='py-[10%] px-[30%] text-tp-dark flex flex-col'>
+          <div className='text-title mb-32'>{text.home.section2_text1}</div>
           <div className='flex flex-row gap-5 mb-20'>
             <a href={appStoreCistaLink}>
               <img src='images/logoAppStore.png' />
@@ -115,17 +104,9 @@ const Homepage = () => {
             </a>
           </div>
           <div className='flex flex-row text-2xl/[40px] gap-5'>
-            <div>
-              So our campaign doesn’t use taxpayer money or federal resources.
-            </div>
-            <div>
-              In 2022, CISTA mobilised 40,000 volunteers who helped campaign,
-              fundraise, and train to become PACAs.
-            </div>
-            <div>
-              We need your support again - download the CISTA App and
-              participate in an event near you.
-            </div>
+            <div>{text.home.section2_text2}</div>
+            <div>{text.home.section2_text3}</div>
+            <div>{text.home.section2_text4}</div>
           </div>
         </div>
       </div>
@@ -150,9 +131,7 @@ const Homepage = () => {
       >
         <div>
           <div className='text-4xl mb-10'>TAWARAN MADANI</div>
-          <div className=' text-2xl/[40px]'>
-            The job of government is to ensure that no one is left behind.
-          </div>
+          <div className=' text-2xl/[40px]'>{text.home.text1}</div>
         </div>
         <div className='text-[72px]/[80px]'>Tiada yang Tertinggal.</div>
       </div>
@@ -160,24 +139,11 @@ const Homepage = () => {
       {/* Section 1 */}
       {/* ======================================================================================================================================== */}
       <div className='w-full bg-tp-darkBlue flex flex-col text-tp-white'>
-        <div className=' text-3xl/[40px] mb-10  p-[8%]'>
-          The parties of the Unity Government believe in fair and equitable
-          treatment of Kedah, Kelantan, Negeri Sembilan, Pulau Pinang, Selangor,
-          and Terengganu.
-        </div>
+        <div className=' text-3xl/[40px] mb-10  p-[8%]'>{text.home.section1_text1}</div>
         <div className='text-xl/[40px] flex flex-col  px-[14%] mb-14 gap-6'>
-          <div>
-            This means facilitating each state’s unique potential, by creating
-            economic opportunities that are locally relevant.
-          </div>
-          <div>
-            No anak negeri should have to leave home in order to achieve
-            prosperity and happiness.
-          </div>
-          <div>
-            By using technology and empowering enterprising individuals, we
-            believe we can lay these seeds of prosperity across the 6 states.
-          </div>
+          <div>{text.home.section1_text1}</div>
+          <div>{text.home.section1_text2}</div>
+          <div>{text.home.section1_text3}</div>
         </div>
         <img src='images/homeSection1.png' />
       </div>
@@ -186,24 +152,13 @@ const Homepage = () => {
       {/* ======================================================================================================================================== */}
       <div className='w-full flex flex-col bg-tp-white items-center'>
         <img src='images/homeSection2-1.png' className='w-[50%]' />
-        <div className='text-3xl/[40px] mb-10 p-[8%]'>
-          Even as the ruling government, we believe it is our responsibility to
-          run a principled campaign.
+        <div className='text-3xl/[40px] mb-10 p-[8%]'>{text.home.section2_text1}</div>
+        <div className='text-xl/[40px] flex flex-col px-[14%] mb-14 gap-6'>
+          <div>{text.home.section2_text2}</div>
+          <div>{text.home.section2_text3}</div>
+          <div>{text.home.section2_text4}</div>
         </div>
-        <div className='text-xl/[40px] flex flex-col  px-[14%] mb-14 gap-6'>
-          <div>
-            So our campaign doesn’t use taxpayer money or federal resources.
-          </div>
-          <div>
-            In 2022, CISTA mobilised 40,000 volunteers who helped campaign,
-            fundraise, and train to become PACAs.
-          </div>
-          <div>
-            We need your support again - download the CISTA App and participate
-            in an event near you.
-          </div>
-        </div>
-        <div className='flex flex-row gap-5 mb-20 w-full'>
+        <div className='flex flex-row gap-5 mb-20 w-full items-center justify-center'>
           <a href={appStoreCistaLink}>
             <img src='images/logoAppStore.png' />
           </a>

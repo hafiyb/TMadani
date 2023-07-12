@@ -8,7 +8,7 @@ import { LangContext } from '@/context/LangContext';
 const Navbar = ({ children }) => {
   const [language, setLanguage] = useState(0);
 
-  // const { lang, changeLang, text } = useContext(LangContext)
+  const { lang, changeLang, text } = useContext(LangContext);
 
   const [width, setWidth] = useState(0);
 
@@ -37,7 +37,7 @@ const Navbar = ({ children }) => {
               href='/volunteer'
               className='hover:bg-tp-gray text-tp-white rounded-3xl py-3 px-9 font-ClashDisplay items-center flex'
             >
-              Volunteer
+              {lang === 'bm' ? 'Sukarelawan' : 'Volunteer'}
             </Link>
             <Link
               href='/faq'
@@ -45,10 +45,10 @@ const Navbar = ({ children }) => {
             >
               FAQ
             </Link>
-            {/* <div className='bg-tp-white flex flex-row'>
+            <div className='bg-tp-white flex flex-row'>
               <button
                 className={`px-7 ${
-                  language === 0
+                  lang === 'bm'
                     ? 'bg-tp-red text-tp-white'
                     : 'bg-tp-white text-tp-gray2'
                 }`}
@@ -58,7 +58,7 @@ const Navbar = ({ children }) => {
               </button>
               <button
                 className={`px-7 ${
-                  language === 1
+                  lang === 'eng'
                     ? 'bg-tp-red text-tp-white'
                     : 'bg-tp-white text-tp-gray2'
                 }`}
@@ -66,7 +66,7 @@ const Navbar = ({ children }) => {
               >
                 ENG
               </button>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className='w-full'>{children}</div>
