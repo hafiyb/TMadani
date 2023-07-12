@@ -1,11 +1,12 @@
 'use client';
 
+import { LangContext } from '@/context/LangContext';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 
 const NavbarMobile = ({ children }) => {
-  const [language, setLanguage] = useState(0);
   const [showMenu, setShowMenu] = useState(false);
+  const { lang, changeLang, text } = useContext(LangContext);
 
   return (
     <div className='flex min-w-full justify-end bg-tp-darkBlue bg-cover relative'>
@@ -28,33 +29,33 @@ const NavbarMobile = ({ children }) => {
               Pencapaian Madani
             </Link>
             <Link href='/volunteer' onClick={() => setShowMenu(false)}>
-              Volunteer
+            {lang === 'bm' ? 'Sukarelawan' : 'Volunteer'}
             </Link>
             <Link href='/faq' onClick={() => setShowMenu(false)}>
               FAQ
             </Link>
           </div>
           <div className='bg-tp-white flex flex-row h-10'>
-            {/* <button
+            <button
               className={`px-7 ${
-                language === 0
+                lang === 'bm'
                   ? 'bg-tp-red text-tp-white'
                   : 'bg-tp-white text-tp-gray2'
               }`}
-              onClick={() => setLanguage(0)}
+              onClick={() => changeLang('bm')}
             >
               BM
             </button>
             <button
               className={`px-7 ${
-                language === 1
+                lang === 'eng'
                   ? 'bg-tp-red text-tp-white'
                   : 'bg-tp-white text-tp-gray2'
               }`}
-              onClick={() => setLanguage(1)}
+              onClick={() => changeLang('eng')}
             >
               ENG
-            </button> */}
+            </button>
           </div>
         </div>
       ) : null}

@@ -1,11 +1,13 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import Footer from '../pages/footer';
 import FooterMobile from '../pages/footerMobile';
 import { appStoreCistaLink, playStoreCistaLink } from '@/constants';
+import { LangContext } from '@/context/LangContext';
 
 const Volunteer = () => {
   const [width, setWidth] = useState(0);
+  const { lang, changeLang, text } = useContext(LangContext);
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -27,22 +29,18 @@ const Volunteer = () => {
           className='absolute top-[15%] left-[10%]'
         />
         <div className=' w-[50%] text-tp-white pt-[15%] pr-[15%]'>
-          <div className='text-title'>
-            Tawaran Madani is driven by people like you.
-          </div>
+          <div className='text-title'>{text.volunteer.section1_text1}</div>
           <div className='text-2xl/[40px] my-16'>
-            If you would like to join our field teams — calling fence-sitters &
-            canvassing, training to become PACAs — download the CISTA App and
-            register today. Perpaduan is driven by people like you.
+            {text.volunteer.section1_text2}
           </div>
-        <div className='flex flex-row gap-5 mb-20'>
-          <a href={appStoreCistaLink}>
-            <img src='images/logoAppStore.png' />
-          </a>
-          <a href={playStoreCistaLink}>
-            <img src='images/logoPlayStore.png' />
-          </a>
-        </div>
+          <div className='flex flex-row gap-5 mb-20'>
+            <a href={appStoreCistaLink}>
+              <img src='images/logoAppStore.png' />
+            </a>
+            <a href={playStoreCistaLink}>
+              <img src='images/logoPlayStore.png' />
+            </a>
+          </div>
         </div>
       </div>
       <div className='bg-tp-darkBlue w-full h-40' />
