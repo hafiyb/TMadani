@@ -13,15 +13,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html className='flex flex-col' lang='en'>
-      <meta property='og:url' content='tawaranmadani.org' />
+      <meta property='og:url' content='https://tawaranmadani.org/' />
       <meta property='og:type' content='website' />
       <meta property='og:title' content='Tawaran Madani' />
+      <meta property='og:description' content='Tawaran Madani' />
+      <meta property='og:image' content='' />
+
       <meta name='twitter:card' content='summary_large_image' />
-      <meta
-        property='og:description'
-        content='Tawaran Madani'
-      />
-      {/* <meta property='og:image' content={'../../public/images/web-banner.png'} /> */}
+      <meta property='twitter:domain' content='tawaranmadani.org' />
+      <meta property='twitter:url' content='https://tawaranmadani.org/' />
+      <meta name='twitter:title' content='Tawaran Madani' />
+      <meta name='twitter:description' content='Tawaran Madani' />
+      <meta name='twitter:image' content='' />
       <LangContextProvider>
         <body>
           <Navbar className='h-auto'>{children}</Navbar>
