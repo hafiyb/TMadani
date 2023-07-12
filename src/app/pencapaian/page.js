@@ -223,7 +223,7 @@ const Volunteer = () => {
     // ========================================================================================================================================
     <div className='flex flex-col justify-center min-h-full min-w-full absolute top-0'>
       <div
-        className='relative w-full h-screen bg-cover flex flex-col  text-tp-white p-[5%]'
+        className='relative w-full min-h-screen bg-cover flex flex-col  text-tp-white p-[5%]'
         style={{ backgroundImage: 'url(images/volunteer1.png)' }}
       >
         <div className='flex justify-end items-start'>
@@ -246,7 +246,7 @@ const Volunteer = () => {
           If these policy objectives resonate with you, undilah perpaduan.
         </div>
         <div className='flex flex-row items-start justify-start w-full mb-40'>
-          <div className='  flex flex-col gap-5 w-[50%] px-[5%]'>
+          <div className='  flex flex-col gap-5 w-[35%] px-[5%]'>
             <button
               onClick={() => handleActivePencapaian(0)}
               className={` ${
@@ -293,7 +293,11 @@ const Volunteer = () => {
               return (
                 <div
                   className='flex flex-col hover:cursor-pointer'
-                  onClick={() => setPencapaianOpen(index)}
+                  onClick={() => {
+                    if(pencapaianOpen === index){
+                      setPencapaianOpen(false)
+                    } else setPencapaianOpen(index)}
+                  }
                 >
                   <div className='flex flex-row items-center justify-between'>
                     <div className='text-xl w-[60%]'>{item.question}</div>

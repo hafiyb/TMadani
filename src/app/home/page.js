@@ -40,10 +40,10 @@ const Homepage = () => {
         className='relative w-full h-screen bg-cover'
         style={{ backgroundImage: bgList[bgIndex] }}
       >
-        <div className='absolute text-title text-tp-white w-96 bottom-[45%] right-[30%] leading-[72px]'>
+        <div className='absolute text-title text-tp-white w-[700px] top-[18%] right-[20%] leading-[72px]'>
           {text.home.text1}
         </div>
-        <div className='absolute w-full text-hero text-tp-white bottom-[10%] pl-20 '>
+        <div className='absolute w-full text-hero text-tp-white bottom-[10%] px-20 '>
           Tiada yang Tertinggal.
         </div>
         <img

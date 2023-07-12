@@ -50,6 +50,10 @@ const Faq = () => {
   const [width, setWidth] = useState(0);
 
   useEffect(() => {
+    setFaqOpen(false);
+  }, [activeFaq]);
+
+  useEffect(() => {
     setWidth(window.innerWidth);
   });
 
@@ -92,7 +96,11 @@ const Faq = () => {
             return (
               <div
                 className='flex flex-col hover:cursor-pointer'
-                onClick={() => setFaqOpen(index)}
+                onClick={() => {
+                  if (faqOpen === index) {
+                    setFaqOpen(false);
+                  } else setFaqOpen(index);
+                }}
               >
                 <div className='flex flex-row items-center justify-between my-2'>
                   <div className='text-xl w-[60%]'>{item.question}</div>
@@ -152,7 +160,11 @@ const Faq = () => {
               return (
                 <div
                   className='flex flex-col hover:cursor-pointer'
-                  onClick={() => setFaqOpen(index)}
+                  onClick={() => {
+                    if (faqOpen === index) {
+                      setFaqOpen(false);
+                    } else setFaqOpen(index);
+                  }}
                 >
                   <div className='flex flex-row items-center justify-between  '>
                     <div className='text-sm w-[60%]'>{item.question}</div>
