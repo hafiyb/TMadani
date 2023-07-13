@@ -1,14 +1,21 @@
+import { LangContext } from '@/context/LangContext';
 import Link from 'next/link';
+import { useContext } from 'react';
 
 const Footer = () => {
+  const { lang, changeLang, text } = useContext(LangContext);
   return (
     <div className='w-full bg-tp-darkBlue flex flex-col justify-between'>
       <div className='w-[50%] flex flex-col text-tp-white py-12 px-[240px]'>
         <div className='mb-20 text-xs'>SITEMAP</div>
         <div className='flex flex-col mb-24 gap-3'>
-          <Link href='/'>Home</Link>
+          <Link href='/'>
+              {lang === 'bm' ? 'Laman Utama' : 'Home'}
+          </Link>
           <Link href='/pencapaian'>Pencapaian Madani</Link>
-          <Link href='/volunteer'>Volunteer</Link>
+          <Link href='/volunteer'>
+              {lang === 'bm' ? 'Sukarelawan' : 'Volunteer'}
+            </Link>
           <Link href='/faq'>FAQs</Link>
         </div>
       </div>

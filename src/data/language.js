@@ -20,7 +20,11 @@ export const malayLang = {
     section2_text4:
       'Kami memerlukan sokongan anda sekali lagi - muat turun Aplikasi CISTA dan sertai aktiviti yang berdekatan dengan anda.',
   },
-  sukarelawan: {},
+  volunteer: {
+    section1_text1: 'Tawaran Madani adalah digerakkan oleh rakyat seperti anda',
+    section1_text2:
+      'If you would like to join our field teams — calling fence-sitters & canvassing, training to become PACAs — download the CISTA App and register today. Perpaduan is driven by people like you.',
+  },
   pencapaian: {
     section1_text1:
       'Kerajaan Madani telah memimpin Malaysia selama dua suku tahun.',
@@ -28,6 +32,8 @@ export const malayLang = {
       'Dalam tempoh itu, beberapa inisiatif telah dilaksanakan untuk menangani tekanan ekonomi yang kini membeban rakyat Malaysia.',
     section1_text3:
       'Senarai berikut menyatakan 40 inisiatif yang telah dilaksanakan oleh Kerajaan Madani demi mencapai peningkatan pekerjaan bermaruah, gaji bermaruah, dan kehidupan bermaruah di negara kita.',
+    section2_text1:
+      'Jika objektif-objektif dasar ini dirasai dan bersesuaian dengan anda, undilah perpaduan.',
     s1: 'Pekerjaan',
     s2: 'Kos Sara Hidup',
     s3: 'Infrastruktur',
@@ -237,7 +243,7 @@ export const malayLang = {
       'Inisiatif ini bertujuan untuk membantu kanak-kanak yang tidak terjamin di bawah Program Imunisasi Kebangsaan Malaysia sebelum ini.',
   },
   volunteer: {
-    section1_text1: 'Tawaran Madani is driven by people like you.',
+    section1_text1: 'Tawaran Madani adalah digerakkan oleh rakyat seperti anda.',
     section1_text2:
       'Sekiranya anda ingin menyertai pasukan lapangan kami — menghubungi pengundi atas pagar & berjumpa mereka, atau dilatih untuk menjadi PACA — muat turun aplikasi CISTA dan daftar hari ini.',
   },
@@ -245,19 +251,19 @@ export const malayLang = {
     s1q1: 'How can I register as a volunteer for the Undi Perpaduan campaign?',
     s1q2: 'I have registered as a volunteer. What activities can I do after this?',
     s2q1: 'Bagaimanakah saya boleh memuat turun CISTA?',
-    s2q2: "Saya mengalami masalah untuk mendaftar aplikasi CISTA.",
-    s2q3: "Saya tidak boleh log masuk ke dalam aplikasi CISTA.",
-    s2q4: "Pendaftaran aplikasi CISTA mengambil masa yang lama.",
-    s2q5: "Kenapa pendaftaran CISTA memerlukan kad pengenalan? ",
-    s2q6: "Saya menghadapi kesukaran untuk memuat turun aplikasi CISTA luar daripada Malaysia.",
-    s1a1: "To become a volunteer, you are required to register as a volunteer via the CISTA app.",
-    s1a2: "Any latest activities regarding Undi Perpaduan will be updated on the CISTA app.",
-    s2a1: "CISTA boleh dimuat turun melalui App Store, Play Store & Huawei App Gallery.",
+    s2q2: 'Saya mengalami masalah untuk mendaftar aplikasi CISTA.',
+    s2q3: 'Saya tidak boleh log masuk ke dalam aplikasi CISTA.',
+    s2q4: 'Pendaftaran aplikasi CISTA mengambil masa yang lama.',
+    s2q5: 'Kenapa pendaftaran CISTA memerlukan kad pengenalan? ',
+    s2q6: 'Saya menghadapi kesukaran untuk memuat turun aplikasi CISTA luar daripada Malaysia.',
+    s1a1: 'To become a volunteer, you are required to register as a volunteer via the CISTA app.',
+    s1a2: 'Any latest activities regarding Undi Perpaduan will be updated on the CISTA app.',
+    s2a1: 'CISTA boleh dimuat turun melalui App Store, Play Store & Huawei App Gallery.',
     s2a2: "Pastikan anda memasukkan nombor telefon & nombor kad pengenalan yang sah sebelum menekan butang 'Daftar Akaun'.",
     s2a3: "Pastikan nombor telefon dan kata laluan yang dimasukkan adalah tepat sebelum anda menekan butang 'Log Masuk'.",
-    s2a4: "Pastikan anda mempunyai rangkaian kelajuan internet yang stabil.",
-    s2a5: "Kenapa pendaftaran CISTA memerlukan kad pengenalan? ",
-    s2a6: "Aplikasi CISTA hanya didapati dan boleh dimuat turun di Malaysia sahaja buat masa kini.",
+    s2a4: 'Pastikan anda mempunyai rangkaian kelajuan internet yang stabil.',
+    s2a5: 'Kenapa pendaftaran CISTA memerlukan kad pengenalan? ',
+    s2a6: 'Aplikasi CISTA hanya didapati dan boleh dimuat turun di Malaysia sahaja buat masa kini.',
   },
 };
 
@@ -289,6 +295,8 @@ export const engLang = {
       'In that short period, multiple initiatives have been rolled out to address the economic pressures that currently weigh down on the Malaysian rakyat.',
     section1_text3:
       'The following snapshot outlines relevant initiatives that the Madani Government has already undertaken to help enable dignified work, dignified wages, and a dignified life',
+    section2_text1:
+      'If these policy objectives resonate with you, undilah perpaduan. ',
     s1: 'Jobs',
     s2: 'Cost of Living',
     s3: 'Infrastructure',
@@ -508,16 +516,16 @@ export const engLang = {
     s2q1: 'How can I download CISTA?',
     s2q2: "I'm having trouble registering the CISTA application.",
     s2q3: "I can't login into the CISTA app.",
-    s2q4: "CISTA app registration takes a long time to complete.",
-    s2q5: "Why does CISTA app registration require identity card detail?",
-    s2q6: "I am having trouble downloading the CISTA app outside of Malaysia.",
-    s1a1: "To become a volunteer, you are required to register as a volunteer via the CISTA app.",
-    s1a2: "Any latest activities regarding Undi Perpaduan will be updated on the CISTA app.",
-    s2a1: "CISTA can be downloaded via the App Store, Play Store & Huawei App Gallery.",
+    s2q4: 'CISTA app registration takes a long time to complete.',
+    s2q5: 'Why does CISTA app registration require identity card detail?',
+    s2q6: 'I am having trouble downloading the CISTA app outside of Malaysia.',
+    s1a1: 'To become a volunteer, you are required to register as a volunteer via the CISTA app.',
+    s1a2: 'Any latest activities regarding Undi Perpaduan will be updated on the CISTA app.',
+    s2a1: 'CISTA can be downloaded via the App Store, Play Store & Huawei App Gallery.',
     s2a2: "Make sure you enter a valid phone number & identity card number before pressing the 'Register Account' button.",
     s2a3: "Make sure the phone number and password you enter are correct before you press the 'Sign In' button.",
-    s2a4: "Make sure you have a stable internet connection.",
-    s2a5: "Identity card detail is required for registration purposes and PACA activities.",
-    s2a6: "As of now, the CISTA app is only available in Malaysia.",
+    s2a4: 'Make sure you have a stable internet connection.',
+    s2a5: 'Identity card detail is required for registration purposes and PACA activities.',
+    s2a6: 'As of now, the CISTA app is only available in Malaysia.',
   },
 };

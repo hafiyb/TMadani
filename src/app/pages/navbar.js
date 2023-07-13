@@ -25,7 +25,7 @@ const Navbar = ({ children }) => {
               href='/home'
               className='hover:bg-tp-gray text-tp-white rounded-3xl py-3 px-9 font-ClashDisplay items-center flex'
             >
-              Home
+              {lang === 'bm' ? 'Laman Utama' : 'Home'}
             </Link>
             <Link
               href='/pencapaian'

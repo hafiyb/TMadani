@@ -243,7 +243,7 @@ const Volunteer = () => {
       </div>
       <div className='flex flex-col bg-tp-white text-tp-dark items-center '>
         <div className='text-title px-[25%] py-32 text-center'>
-          If these policy objectives resonate with you, undilah perpaduan.
+          {text.pencapaian.section2_text1}
         </div>
         <div className='flex flex-row items-start justify-start w-full mb-40'>
           <div className='  flex flex-col gap-5 w-[35%] px-[5%]'>
@@ -358,7 +358,7 @@ const Volunteer = () => {
       </div>
       <div className='bg-tp-white flex flex-col px-[10%]'>
         <div className='text-title px-[5%] py-32 text-center'>
-          If these policy objectives resonate with you, undilah perpaduan.
+          {text.pencapaian.section2_text1}
         </div>
         <div className='flex flex-col justify-start w-full mb-20'>
           <div className=' flex flex-col gap-5 px-[5%] mb-20'>
