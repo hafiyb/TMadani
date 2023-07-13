@@ -65,7 +65,7 @@ const Faq = () => {
     // ========================================================================================================================================
     <div className='flex flex-col justify-center min-w-full absolute top-0'>
       <div
-        className='relative w-full h-screen bg-cover flex justify-end items-start flex-row'
+        className='relative w-full min-h-screen bg-cover flex justify-end items-start flex-row'
         style={{ backgroundImage: 'url(images/volunteer1.png)' }}
       >
         <div className='w-[50%] p-[10%] text-tp-white'>

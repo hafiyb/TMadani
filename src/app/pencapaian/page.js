@@ -226,18 +226,18 @@ const Volunteer = () => {
         className='relative w-full min-h-screen bg-cover flex flex-col  text-tp-white p-[5%]'
         style={{ backgroundImage: 'url(images/volunteer1.png)' }}
       >
-        <div className='flex justify-end items-start'>
-          <div className='w-[50%] text-title p-[10%]'>
+        <div className='flex justify-end items-start py-[5%]'>
+          <div className=' text-title px-[10%]'>
             {text.pencapaian.section1_text1}
           </div>
-          <div className='w-[50%] text-2xl/[40px] p-[10%]'>
+          <div className=' text-2xl/[40px] px-[10%]'>
             {text.pencapaian.section1_text2}
             <br />
             <br />
             {text.pencapaian.section1_text3}
           </div>
         </div>
-        <div className=' w-full text-hero text-tp-white bottom-[10%]'>
+        <div className=' absolute text-hero text-tp-white bottom-[5%]'>
           Pencapaian Madani.
         </div>
       </div>
