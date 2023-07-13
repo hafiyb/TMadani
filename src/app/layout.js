@@ -17,14 +17,14 @@ export default function RootLayout({ children }) {
       <meta property='og:type' content='website' />
       <meta property='og:title' content='Tawaran Madani' />
       <meta property='og:description' content='Tawaran Madani' />
-      <meta property='og:image' content='' />
+      <meta property='og:image' content='https://live.staticflickr.com/65535/53042019256_9495ec9543_b.jpg' />
 
       <meta name='twitter:card' content='summary_large_image' />
       <meta property='twitter:domain' content='tawaranmadani.org' />
       <meta property='twitter:url' content='https://tawaranmadani.org/' />
       <meta name='twitter:title' content='Tawaran Madani' />
       <meta name='twitter:description' content='Tawaran Madani' />
-      <meta name='twitter:image' content='' />
+      <meta name='twitter:image' content='https://live.staticflickr.com/65535/53042019256_9495ec9543_b.jpg' />
       <LangContextProvider>
         <body>
           <Navbar className='h-auto'>{children}</Navbar>
